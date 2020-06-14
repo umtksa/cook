@@ -1,7 +1,7 @@
 ---
 date: 2020-06-14
 title: Profiterol
-published: False
+published: True
 categories:
   - Hamur işi
   - Tuzlular
