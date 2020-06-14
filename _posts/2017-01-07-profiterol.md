@@ -2,6 +2,7 @@
 date: 2020-06-14
 title: Profiterol
 published: True
+permalink: profiterol
 categories:
   - Tatlılar
   - Hamur işi
