@@ -3,8 +3,8 @@ date: 2020-06-14
 title: Profiterol
 published: True
 categories:
-  - Hamur işi
-  - Tuzlular
+  - Tatlılar
+  - Hamur İşi
 
 featured_image: https://cookciko.github.io/images/prof.jpg
 recipe:
