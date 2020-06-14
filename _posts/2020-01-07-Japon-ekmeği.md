@@ -3,7 +3,7 @@ date: 2020-06-14
 title: Japon Ekmeği
 published: True
 categories:
-  - Hamur İşi
+  - Hamur işi
 
 featured_image: https://cookciko.github.io/images/japon-ekmegi.jpg
 recipe:
