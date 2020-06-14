@@ -32,14 +32,6 @@ recipe:
 ---
 Bu çıtır çıtır kurabiyeyi çay kahve yanına yapabilirsiniz.
 
-![Cake](https://source.unsplash.com/AEYdJTleZc0)
-
-fındıklar
-
-![Cake](https://source.unsplash.com/dZKiXR9FYcM)
+![Cake](https://source.unsplash.com/i9efeWIuDBA/1560x940)
 
 isterseniz üzerine fındık da serpebilirsiniz.
-
-![Cake](https://source.unsplash.com/i9efeWIuDBA)
-
-mesela 
