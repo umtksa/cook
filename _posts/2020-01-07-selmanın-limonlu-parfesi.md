@@ -11,7 +11,7 @@ recipe:
 
   ingredients_markdown: |-
 
-    * 7 tane pötibör büsküvi
+    * 7 tane petibör büsküvi
     * 1 poşet krem şanti
     * 1 bardak süt
     * 3 yumurta
