@@ -1,5 +1,5 @@
 ---
-date: 2017-01-07
+date: 2020-01-07
 title: Selma'nın Limonlu Parfesi
 categories:
   - Tatlılar
@@ -8,7 +8,7 @@ featured_image: https://source.unsplash.com/yHcZ62f7c_E/1560x940
 recipe:
   servings: 6 kişilik
   prep: 30 dakika hazırlama 2 saat bekleme
-  cook:
+
   ingredients_markdown: |-
 
     * 7 tane pötibör büsküvi
