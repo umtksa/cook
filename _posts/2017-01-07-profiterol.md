@@ -4,7 +4,7 @@ title: Profiterol
 published: True
 categories:
   - Tatlılar
-  - Hamur İşi
+  - Hamur işi
 
 featured_image: https://cookciko.github.io/images/prof.jpg
 recipe:
@@ -50,4 +50,4 @@ recipe:
     1. Combine all of the above in a food processor and process until smooth. Refrigerate.
     2. Frost cupcakes as you use them.
 ---
-Buralara buralara buralara yaz günü kar yağıyor canım 
+Buralara buralara buralara yaz günü kar yağıyor canım
