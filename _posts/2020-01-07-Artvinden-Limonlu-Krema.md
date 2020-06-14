@@ -32,6 +32,6 @@ recipe:
 ---
 Tatlılarınıza lezzet katacağınız bir limonlu krema tarifi
 
-![Cupcakes](https://images.unsplash.com/photo-1586718418497-76bcc1e1dbfb?w=1560&h=940&fit=crop)
+![Cupcakes](images.unsplash.com/photo-1586718418497-76bcc1e1dbfb?w=1560&h=940&fit=crop)
 
 Ben pastalara, keklere, tartlara bu kremayı kullanıyorum.
