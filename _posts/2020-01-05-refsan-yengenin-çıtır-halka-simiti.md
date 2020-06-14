@@ -23,3 +23,4 @@ recipe:
     4. Yumurta sarısı sürülup susamladıktan sonra fırına verilir.
 
 ---
+Her tarife böyle kısa bir açıklama gibi bişe yazmak lazım
