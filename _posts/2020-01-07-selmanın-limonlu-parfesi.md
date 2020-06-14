@@ -42,7 +42,3 @@ Bu lezzetli yaz tarifi için yakın arkadaşım Selma'ya çok teşekkür ederim.
 ![Cupcakes](https://source.unsplash.com/FWaV69D5b8k/1560x940)
 
 Ben tarifi kivi ile yazdım fakat siz yakışacağını düşündüğünüz tüm yaz meyvelerini kullanabilirsiniz.
-
-![Cupcakes](https://images.unsplash.com/photo-1508432310926-5712bcb79944?w=1560&h=940&fit=crop)
-
-Nefis limonlu parfe
