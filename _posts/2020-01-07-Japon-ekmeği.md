@@ -5,7 +5,7 @@ published: True
 categories:
   - Hamur İşi
 
-featured_image: images/japon-ekmegi.jpg
+featured_image: https://cookciko.github.io/images/japon-ekmegi.jpg
 recipe:
   servings: 600gr ekmek
   prep: 90 dk hazırlama 60dk pişirme
