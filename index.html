@@ -9,8 +9,10 @@ title: Home
 				<a href="{{ post.url }}">
 				<img src="{{ post.featured_image }}" alt="{{ post.title }}">
 			</div>
+			<div class="">
+				{{ post.excerpt }}
+			</div>
 
-			{{ post.excerpt }}
 
 			<p><a class="button" href="{{ site.baseurl }}{{ post.url }}">Tarifin Devamı</a></p>
 		</article>
