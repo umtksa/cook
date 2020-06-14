@@ -1,6 +1,6 @@
-- name: Anasayfa
+- name: ANASAYFA
   link: /
-- name: Hakkımda
+- name: HAKKIMDA
   link: /about/
-- name: Tarifler
+- name: TARİFLER
   link: /recipes/
