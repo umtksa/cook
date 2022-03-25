@@ -1,8 +1,4 @@
-- name: ANASAYFA
-  link: /
-- name: HAKKIMDA
-  link: /about/
 - name: TARİFLER
   link: /recipes/
 - name: ARAMA
-  link: /search/  
+  link: /search/
