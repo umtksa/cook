@@ -1,8 +1,8 @@
 # ----
 # Site
 
-title: cookciko
-url: "cookciko.github.io"
+title: cook
+url: "umtksa.github.io/cook"
 baseurl:
 google_analytics_key:
 newsletter_action:
@@ -10,15 +10,15 @@ disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: çiko'nun yemek tarifleri
+description: some kiind of recipe database for personal use
 author:
   name:
   email:
   twitter: # twitter username without the @ symbol
 social:
-  name: cookciko
+  name: cook
   links:
-    - https://cookciko.github.io
+    - https://umtksa.github.io/cook
 # -----
 # Build
 
