@@ -3,13 +3,6 @@ layout: default
 ---
 <article class="post">
 	{% include post-heading.html post=page post_page=true %}
-	<div class="image">
-		<img src="{{ page.featured_image }}" alt="{{ page.title }}">
-	</div>
-
-	<div class="recipe-body">
-		{{ content }}
-	</div>
 
 	<ul id="recipe" class="recipe-overview">
 		<li title="Servings">{% include recipe-icon.html icon="quantity" %}<span>{{ page.recipe.servings }}</span></li>
@@ -29,7 +22,9 @@ layout: default
 			{{ page.recipe.directions_markdown | markdownify }}
 		</div>
 	</div>
-
+	<div class="recipe-body">
+		{{ content }}
+	</div>
 </article>
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
