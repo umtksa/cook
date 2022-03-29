@@ -6,7 +6,7 @@ categories:
 featured_image: https://umtksa.github.io/cook/images/elmali.jpg
 recipe:
   servings: 4 kişilik
-  prep: 25 dk falan
+  prep: 10 dk hazırlık 30 dk pişirme
 
   ingredients_markdown: |-
     * 3 elma
