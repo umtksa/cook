@@ -9,7 +9,6 @@ recipe:
   prep: 20 dk falan
 
   ingredients_markdown: |-
-
     * 3 yemek kaşığı kakao
     * 3 yemek kaşığı mısır nişastası
     * 5 yemek kaşığı toz şeker
