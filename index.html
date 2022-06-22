@@ -8,9 +8,9 @@ image_view: true
 {% if page.image_view %}
 	{% for category in site.categories %}
 		<h2>{{ category[0] }}</h2>
-		<div class="recipes">
+		<div class="recipesloo">
 			{% for recipe in category[1] %}
-				<div class="recipe" >
+				<div class="recipeloo" >
 				
 					<a href = "{{ site.baseurl }}{{ recipe.url }}" target = "_self">{{ recipe.title }}</a>
 				</div>
