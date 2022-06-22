@@ -2,8 +2,7 @@
 date: 2022-04-16
 title: çikolata sos
 categories:
-  - Tatlı
-featured_image: https://i0.wp.com/theheritagecook.com/wp-content/uploads/2010/06/flowing-melted-chocolate-istock.jpg
+  - tatlı
 recipe:
   servings: 1 kişilik
   prep: 20 dk falan

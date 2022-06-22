@@ -1,9 +1,8 @@
 ---
 date: 2022-01-05
-title: Elmalı şekersiz kek
+title: elmalı şekersiz kek
 categories:
-  - Tatlı
-featured_image: https://umtksa.github.io/cook/images/elmali.jpg
+  - tatlı
 recipe:
   servings: 4 kişilik
   prep: 10 dk hazırlık 30 dk pişirme
