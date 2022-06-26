@@ -1,0 +1,21 @@
+---
+date: YYYY-MM-DD
+title: 
+published: True
+permalink: adı
+categories:
+  - çorba
+  - tatlı
+
+recipe:
+  servings: 3 kişilik bence
+  prep: 30 dk falan
+  ingredients_markdown: |-
+    * 
+    * 
+  directions_markdown: |-
+    1. 
+    2. 
+    3. 
+---
+afiyets
