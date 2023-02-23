@@ -24,4 +24,4 @@ recipe:
     5. Bu noktada hazırladığımız şerbeti tavaya ekleyip kapağını kapatalım. Helva şerbetini çekinceye kadar kısık ateşte 1-2 dakika daha pişirelim. 
     6. Ardından ocağı kapatıp helvayı şöyle bir karıştırdıktan sonra üzerine kağıt havlu yerleştirip yaklaşık 5 dakika dinlendirelim.
 ---
-duf
+duf test
