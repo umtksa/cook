@@ -19,13 +19,13 @@ categories=("çorba" "tatlı" "düz yemek")
 clear
 
 # Prompt the user to select a category
-echo "$recipe_name için bi kategori seç"
+echo "$recipe_name için bir kategori seç"
 select category in "${categories[@]}"; do
   if [[ " ${categories[@]} " =~ " $category " ]]; then
     # Category is valid
     break
   else
-    echo "olmadı bida dene."
+    echo "Geçersiz bir kategori seçtiniz. Lütfen tekrar deneyin."
   fi
 done
 
@@ -33,11 +33,10 @@ done
 clear
 
 # Prompt the user for the number of servings
-read -p "kaç kişilik bir tarif bu: " servings
+read -p "Kaç kişilik bir tarif bu: " servings
 
 # Prompt the user for the preparation time in minutes
 read -p "Bu tarifi hazırlamak kaç dakika sürer? " prep_time
-
 
 # Initialize an empty ingredients list
 ingredients=""
@@ -78,7 +77,7 @@ done
 # Define the file name for the generated Markdown file
 output_file="$save_location$(date +'%Y-%m-%d')-$recipe_title.md"
 
-# Define the content of the Markdown file
+# Define the content of the Markdown file with line breaks
 markdown_content="---
 date: $(date +'%Y-%m-%d')
 title: $recipe_name
