@@ -4,28 +4,28 @@
 clear
 
 # Define the save location
-save_location="/Users/umutkisa/Dropbox/cook/_posts/"
+save_location="/Users/umutkisa/Desktop/"
 
 # Prompt the user for the recipe name
-read -p "Enter the name of the recipe: " recipe_name
+read -p "Yemeğin adı nedir? " recipe_name
 
 # Replace spaces with hyphens in the recipe name
 recipe_title="${recipe_name// /-}"
 
 # Define an array of categories
-categories=("soup" "dessert" "meat")
+categories=("çorba" "tatlı" "düz yemek")
 
 # Clear the screen
 clear
 
 # Prompt the user to select a category
-echo "Select a category:"
+echo "$recipe_name için bi kategori seç"
 select category in "${categories[@]}"; do
   if [[ " ${categories[@]} " =~ " $category " ]]; then
     # Category is valid
     break
   else
-    echo "Invalid choice. Please select a valid category."
+    echo "olmadı bida dene."
   fi
 done
 
@@ -33,14 +33,10 @@ done
 clear
 
 # Prompt the user for the number of servings
-read -p "Enter the number of servings: " servings
-
-
-
-
+read -p "kaç kişilik bir tarif bu: " servings
 
 # Prompt the user for the preparation time in minutes
-read -p "Enter the preparation time in minutes: " prep_time
+read -p "Bu tarifi hazırlamak kaç dakika sürer? " prep_time
 
 # Initialize an empty ingredients list
 ingredients=""
@@ -49,7 +45,7 @@ ingredients=""
 clear
 
 # Prompt the user for ingredients until they choose to stop (by pressing Enter)
-echo "Enter ingredients (press Enter to finish):"
+echo "$recipe_name için gerekli malzemeler nelerdir?"
 while read -r ingredient; do
   if [ -z "$ingredient" ]; then
     break
@@ -65,7 +61,7 @@ directions=""
 direction_count=1
 
 # Prompt the user for directions until they choose to stop (by pressing Enter)
-echo "Enter directions (press Enter to finish):"
+echo "$recipe_name yaparkenki adımlar nelerdir? "
 while read -r direction; do
   if [ -z "$direction" ]; then
     break
@@ -86,8 +82,8 @@ categories:
   - $category
 
 recipe:
-  servings: $servings person
-  prep: $prep_time minutes
+  servings: $servings kişilik
+  prep: $prep_time dk falan
   ingredients_markdown: |-
 $ingredients
   directions_markdown: |-
