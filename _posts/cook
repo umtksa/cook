@@ -1,0 +1,80 @@
+#!/bin/bash
+
+# Prompt the user for the recipe name
+read -p "Enter the name of the recipe: " recipe_name
+
+# Replace spaces with hyphens in the recipe name
+recipe_title="${recipe_name// /-}"
+
+# Define an array of categories
+categories=("soup" "dessert" "meat")
+
+# Prompt the user to select a category
+echo "Select a category:"
+select category in "${categories[@]}"; do
+  if [[ " ${categories[@]} " =~ " $category " ]]; then
+    # Category is valid
+    break
+  else
+    echo "Invalid choice. Please select a valid category."
+  fi
+done
+
+# Prompt the user for the number of servings
+read -p "Enter the number of servings: " servings
+
+# Prompt the user for the preparation time in minutes
+read -p "Enter the preparation time in minutes: " prep_time
+
+# Initialize an empty ingredients list
+ingredients=""
+
+# Prompt the user for ingredients until they choose to stop
+while true; do
+  read -p "Enter an ingredient (or 'stop' to finish): " ingredient
+  if [ "$ingredient" = "stop" ]; then
+    break
+  fi
+  ingredients+="    * $ingredient"$'\n'
+done
+
+# Initialize an empty directions list
+directions=""
+
+# Initialize a direction counter
+direction_count=1
+
+# Prompt the user for directions until they choose to stop
+while true; do
+  read -p "Enter a direction (or 'stop' to finish): " direction
+  if [ "$direction" = "stop" ]; then
+    break
+  fi
+  directions+="    $direction_count. $direction"$'\n'
+  ((direction_count++))
+done
+
+# Define the file name for the generated Markdown file
+output_file="$(date +'%Y-%m-%d')-$recipe_title.md"
+
+# Define the content of the Markdown file
+markdown_content="---
+date: $(date +'%Y-%m-%d')
+title: $recipe_name
+permalink: $recipe_title
+categories:
+  - $category
+
+recipe:
+  servings: $servings person
+  prep: $prep_time minutes
+  ingredients_markdown: |-
+$ingredients
+  directions_markdown: |-
+$directions
+---"
+
+# Write the content to the output file
+echo "$markdown_content" > "$output_file"
+
+echo "Generated Markdown file: $output_file"
