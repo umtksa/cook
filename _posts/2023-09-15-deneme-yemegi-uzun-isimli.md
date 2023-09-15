@@ -17,8 +17,7 @@ recipe:
 
   directions_markdown: |-
     1. dfdjf dfdshfdf yapın
-    2. fjkghfdg yakfjglf yapın kjfghfkghfd jfdkhgkfdhg fdjh kjhfkh
- jfhgkfhgfdhgkdfjg jfghkdfjhg dfkjghfdgj
+    2. fjkghfdg yakfjglf yapın kjfghfkghfd jfdkhgkfdhg fdjh kjhfkh jfhgkfhgfdhgkdfjg jfghkdfjhg dfkjghfdgj
     3. elleriniz yıka
 
 ---
