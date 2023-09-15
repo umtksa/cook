@@ -97,5 +97,8 @@ $directions
 
 # Write the content to the output file
 echo "$markdown_content" > "$output_file"
+echo -n "$markdown_content" | pbcopy
+echo copy done
+
 
 echo "Recipe Generated As: $output_file"
