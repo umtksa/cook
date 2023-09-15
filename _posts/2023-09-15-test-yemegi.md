@@ -15,8 +15,7 @@ recipe:
     * fgfdfg fgd
 
   directions_markdown: |-
-    1. gljfdgdfgf dflkgjldfkjglfdkjgfkjg fdkgjlkfjgkjlfkjkjk fjgfkjgfjgkfgl
-fkkjf kjkjfkljf kfj
+    1. gljfdgdfgf dflkgjldfkjglfdkjgfkjg fdkgjlkfjgkjlfkjkjk fjgfkjgfjgkfglfkkjf kjkjfkljf kfj
     2. flkjglfg fkgjlf
     3. fkjfh dkfjk  demene
 
