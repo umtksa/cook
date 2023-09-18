@@ -7,25 +7,25 @@ clear
 save_location="../Desktop"
 
 # Prompt the user for the recipe name
-read -p "Yemeğin adı nedir? " recipe_name
+read -p "What is the name of recipe? " recipe_name
 
 # Replace spaces with hyphens in the recipe name
 recipe_title="${recipe_name// /-}"
 
 # Define an array of categories
-categories=("çorba" "tatlı" "düz yemek")
+categories=("soup" "deserts" "other")
 
 # Clear the screen
 clear
 
 # Prompt the user to select a category
-echo "$recipe_name için bi kategori seç"
+echo "Choose a category for $recipe_name"
 select category in "${categories[@]}"; do
   if [[ " ${categories[@]} " =~ " $category " ]]; then
     # Category is valid
     break
   else
-    echo "olmadı bida dene."
+    echo "opps! try again please."
   fi
 done
 
@@ -33,10 +33,10 @@ done
 clear
 
 # Prompt the user for the number of servings
-read -p "kaç kişilik bir tarif bu: " servings
+read -p "number of serving for $recipe_name: " servings
 
 # Prompt the user for the preparation time in minutes
-read -p "Bu tarifi hazırlamak kaç dakika sürer? " prep_time
+read -p "Preperation time for $recipe_name in minutes: " prep_time
 
 
 # Initialize an empty ingredients list
@@ -46,7 +46,7 @@ ingredients=""
 clear
 
 # Prompt the user for ingredients until they choose to stop (by pressing Enter)
-echo "$recipe_name için gerekli malzemeler nelerdir? (Her malzeme için yeni satır açın ve boş satır girerek bitirin)"
+echo "what are the ingredients for $recipe_name (enter when done)"
 while read -r ingredient; do
   if [ -z "$ingredient" ]; then
     break
@@ -65,7 +65,7 @@ directions=""
 direction_count=1
 
 # Prompt the user for directions until they choose to stop (by pressing Enter)
-echo "$recipe_name yaparkenki adımlar nelerdir? (Her adım için yeni satır açın ve boş satır girerek bitirin)"
+echo "what are the directions for $recipe_name (enter when done)"
 while read -r direction; do
   if [ -z "$direction" ]; then
     break
@@ -87,8 +87,8 @@ categories:
   - $category
 
 recipe:
-  servings: $servings kişilik
-  prep: $prep_time dk falan
+  servings: $servings 
+  prep: $prep_time minutes
   ingredients_markdown: |-
 $ingredients
   directions_markdown: |-
