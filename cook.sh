@@ -4,7 +4,7 @@
 clear
 
 # Define the save location
-save_location="./"
+save_location="./_posts"
 
 # Prompt the user for the recipe name
 read -p "What is the name of recipe? " recipe_name
