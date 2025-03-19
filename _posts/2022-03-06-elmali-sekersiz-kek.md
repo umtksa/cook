@@ -1,6 +1,6 @@
 ---
 date: 2022-01-05
-title: elmalı şekersiz kek
+title: elmalı kek
 categories:
   - tatlı
 recipe:
